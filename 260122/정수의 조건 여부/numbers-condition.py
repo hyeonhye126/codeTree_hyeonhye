@@ -1,6 +1,6 @@
 a = int(input())
 
 if a >= 113:
-    print(a)
+    print(1)
 else:
     print(0)
