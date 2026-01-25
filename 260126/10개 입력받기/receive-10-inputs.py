@@ -7,4 +7,4 @@ for a in arr:
     if a == 0:
         break
 
-print(sum(arr2), sum(arr2)/len(arr2))
+print("%d %0.1f" %(sum(arr2), sum(arr2)/len(arr2)))
