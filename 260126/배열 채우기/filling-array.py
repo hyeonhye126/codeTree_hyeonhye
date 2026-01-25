@@ -4,6 +4,8 @@ arr2 = []
 for a in arr:
     if a != 0:
         arr2.append(a)
+    else:
+        break
 
 reversed_arr = arr2[::-1]
 for a in reversed_arr:
