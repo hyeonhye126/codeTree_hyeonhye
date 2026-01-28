@@ -9,4 +9,6 @@ for i in range (len(arr) + 1):
         three += arr[i]
         cnt += 1
 
-print(even, three / cnt)
+avg = three / cnt
+
+print("%d %0.1f" %(even, avg))
