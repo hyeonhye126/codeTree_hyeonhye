@@ -2,7 +2,7 @@ arr = list(map(int, input().split()))
 
 even, three, cnt = 0, 0, 0
 
-for i in range (len(arr)):
+for i in range (len(arr) + 1):
     if (i + 1) % 2 == 0:
         even += arr[i]
     if (i + 1) % 3 == 0:
